@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #99C089;
+    padding: auto;
+}
+
+.container{
+    border: 1px solid #555951;
+    width: 450px;
+    /* height: 600px; */
+    min-height: 600px;
+    margin: auto;
+    background-color: #595959;
+    box-shadow: 0 8px 50px -7px black;
+    /**padding: 적용해야 하나?*/
+}
+
+.round{
+    border-radius: 15px;
+}
+
+.calc-screen{
+    border: 1px solid #555951;
+    margin: 30px 20px 30px;
+    height: 120px;
+    padding: 30px;
+    background-color: #C5D9C8;
+    box-shadow: 0 8px 25px -7px #2222;
+}
+
+#typed-num{
+    font-size: 5rem;
+    text-align: right;
+    margin-top: -25px;
+}
+
+
+.calc-typed{
+    padding: 0 20px 20px 20px;
+}
+
+.calc-button-mark{
+    display: flex;
+    width: 100%;
+}
+
+.button{
+    background-color: #EAEAEa;
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-bottom: solid 2px #555852;
+}
+/* 
+.button{
+    display: inline-block;
+    background-color: #EAEAEA;
+    margin: 4.5px;
+    padding: 45px;
+    width: 20%;
+    font-weight:bold;
+    font-size: 50px;
+    box-shadow: 0 8px 25px -7px #2222;
+    height:1rem; 
+} */
+
+.button.c{
+    color: white;
+    background-color: #758C65;
+}
+
+#equal{
+    background-color: #F29C50;
+}
+
+#equal:hover{
+    background-color:#fab67a;
+}
+
+#equal:active{
+    transform: scale(1.2);
+    background-color: #F29C50;
+}
+
+.button.n:hover{
+    background-color: white;
+    cursor:pointer;
+}
+
+.button.c:hover{
+    background-color:#99C089;
+    cursor:pointer;
+}
