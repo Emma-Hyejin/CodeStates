@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #EAEBEC;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    background-color:#3A4655;
+    min-height: 400px;
+    border: solid 1px #3A4655;
+    box-shadow: 0 8px 50px -7px black;
+    padding: 10px;
+}
+
+.calc-screen{
+    background-color: #3A4655;;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px dotted white; */
+}
+
+#typed-num{
+    text-align: right;
+    font-size: 45px;
+    color: #fff;
+    padding: 10px 20px;
+    /* border: 1px dotted yellowgreen; */
+    margin-top: 12px;
+}
+
+.calc-typed{
+    /* border: 1px dotted skyblue; */
+}
+
+
+.calc-button{
+    display: flex;
+    width: 100%;
+    background-color: #3C4857;
+}
+
+.button{
+    font-size: 25px;
+    background-color: #425062;
+    width: 25%;
+    color: #fff;
+    padding: 20px;
+    border-right: solid 2px #3C4857;
+    border-bottom: solid 2px #3C4857;
+    text-align: center;
+    /* margin-right: -4px; */
+    /* display: inline-block; */
+}
+
+/*하단부 = */
+
+.buttons{
+    font-size: 25px;
+    background-color: #425062;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    border-right: solid 2px #3C4857;
+    border-bottom: solid 2px #3C4857;
+    text-align: center;
+    
+} 
+
+.f{
+    align-items: right;
+}
+
+#equal{
+    color: #D95D4e;
+    background-color: #404D5E;
+    font-weight: bold;
+    flex-grow:1;
+    text-align: center;
+    padding-top: 50%;
+
+}
+
+#equal:hover:active{
+    background-color:#505d6d;
+    color:#ee786b;
+}
+
+.part03{
+    display: flex;
+
+}
+
+
+.two{
+    flex-direction: column;
+    display: flex;
+}
+
+.split{
+    display: flex;
+}
+
+.part02{
+    flex-grow:3;
+}
+
+.part03{
+    flex-grow:1;
+}
+
+
+/*하단부 끝 =  */
+
+.button.high{
+    color: #D95D4e;
+    background-color: #404D5E;
+}
+
+.button.c{
+    background-color: #404D5e;
+}
+
+
+/**이거 왜 이러머 */
+.buttons.high:hover:active{
+    background-color:#505d6d;
+    color:#ee786b;
+}
+
+/**이거 왜 이러머 */
+
+
+.buttons.n:hover:active{
+    background-color: hsl(215, 13%, 45%);
+    cursor:pointer;
+}
+.button.n:hover:active{
+    background-color:hsl(215, 13%, 45%);
+    cursor:pointer;
+}
+
+.button.c:hover:active{
+    background-color:#505d6d;
+    cursor: pointer;
+}
+
+.high:hover:active{
+    background-color: #505d6d;
+    cursor:pointer;
+    color:#ee786b;
+}
+
+
+.high, .c, .n,:focus{
+    cursor:pointer;
+}
+
