@@ -127,13 +127,11 @@ body{
 }
 
 
-/**이거 왜 이러머 */
 .buttons.high:hover:active{
     background-color:#505d6d;
     color:#ee786b;
 }
 
-/**이거 왜 이러머 */
 
 
 .buttons.n:hover:active{
