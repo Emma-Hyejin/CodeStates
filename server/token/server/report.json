@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-05-03T06:24:36.468Z",
+    "end": "2023-05-03T06:24:36.469Z",
+    "duration": 1
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Uncaught error outside test suite",
+      "fullTitle": "Uncaught error outside test suite",
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (index.js:58:16)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (__test__/server.test.js:1:13)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Module._load (node:internal/modules/cjs/loader:958:12)\n    at Module.require (node:internal/modules/cjs/loader:1141:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at /home/emma/바탕화면/git/fe-sprint-auth-token/server/node_modules/yargs/build/index.cjs:443:71",
+        "message": "listen EADDRINUSE: address already in use :::4000",
+        "code": "EADDRINUSE",
+        "errno": -98,
+        "syscall": "listen",
+        "address": "::",
+        "port": 4000,
+        "uncaught": true
+      }
+    }
+  ],
+  "passes": []
+}
